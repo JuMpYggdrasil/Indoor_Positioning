@@ -7,7 +7,7 @@ String line;
 void setup() {
   Serial.begin(115200);
   WiFi.mode(WIFI_AP);
-  WiFi.softAP("ESP_01n1");
+  WiFi.softAP("ESP_01n2");
 
   server.begin();
 }
